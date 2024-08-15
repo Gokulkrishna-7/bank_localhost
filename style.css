@@ -1,0 +1,108 @@
+#main{
+    height: 650px;
+    background: linear-gradient(to right,#4c3a80,#7543ad);
+    color: white;
+}
+
+#fast{
+    font-size: 60px;
+    padding-left: 40px;
+    font-weight: 800;
+}
+
+#handcard{
+    margin-top: -70px;
+    margin-left: -55px;
+}
+
+#para{
+    padding-top: 5px;
+    padding-left: 40px;
+    font-size: 12px;
+    width: 600px;
+}
+
+.button1{
+    width: 160px;
+    margin-top: 30px;
+}
+
+#desc2{
+    margin-left: 20px;
+    
+}
+
+#buttonmain{
+    margin-left: 40px;
+}
+
+#description{
+    margin-left: 40px;
+    padding-top: 90px;
+}
+
+.yellow{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+
+/* register page */
+#Register{
+    height: 650px;
+    background: linear-gradient(to right,#4c3a80,#7543ad);
+    color: white;   
+}
+
+#registerLogo{
+    margin-left: 180px;
+}
+
+#registerField{
+    margin-left: -5px;
+}
+
+.registerInput{
+    width: 300px;
+    margin-top: 15px;
+}
+
+#registerHead1{
+    padding-top: 180px;
+}
+
+#buttonRegister1{
+    width: 130px;
+    margin-top: 25px;
+}
+
+#buttonRegister2{
+    width: 100px;
+    margin-top: 25px;
+    margin-left: 5px;
+}
+
+
+
+/* login page */
+#loginMainContainer{
+    height: 650px;
+    background: linear-gradient(to right,#d2d3d3,#ffffff);
+    color: white; 
+    align-content: center;
+}
+
+#loginSubContianer{
+    background: linear-gradient(to right,#4c3a80,#7543ad);
+    height: 500px;
+    box-shadow: 2px 2px 20px 2px black;
+    border-radius: 25px;
+}
+
+#loginField{
+    padding-top: 120px;
+}
+
+#loginImage{
+    margin-left: 150px;
+}

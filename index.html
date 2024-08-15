@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyBank</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="container-fluid " id="main">
+        <div class="row pt-5">
+          <div class="col-6">
+                <h2 id="fast">Fast and Simple <br> 
+                    Digital Payment <br>
+                    Solution</h2>
+                <p id="para">Many Credit card are lost by the user , stolen or wxpired.
+                     But these card can still be used by other . 
+                    This app can provide you with a card and necessary informations. 
+                    They also offer burner credit card (single-use virtual code)
+                </p>
+
+                <button id="buttonmain" onclick="redirectRegister()" class="button1 btn btn-warning">Register</button>
+                <button onclick="redirectLogin()" class="button1 btn btn-outline-warning">Login</button>
+
+                <div class="container " id="description">
+                    <div class="row">
+                        <div class="col">
+                            <h3 class=" yellow text-warning">01</h3>
+                            <h5>Financial Transaction</h5>
+                            <p>Manage everything from the letter app or website</p>
+                        </div>
+                        <div class="col">
+                            <h3 class="yellow text-warning">02</h3>
+                            <h5 >Easy To Use System</h5>
+                            <p>Each card can have its own unique card holder name balance</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 ">
+                <img id="handcard" width="700" height="525" src="./atmcard2-removebg-preview.png" alt="card png">
+                <div class="container ">
+                    <div class="row" id="desc2">
+                        <div class="col">
+                            <h3 class=" yellow text-warning">03</h3>
+                            <h5>Secure and Reliable</h5>
+                            <p>Your data is protected with advanced encryption.</p>
+                        </div>
+                        <div  class="col">
+                            <h3 class="yellow text-warning">04</h3>
+                            <h5 >Real-Time Alerts</h5>
+                            <p>Get instant notifications for every transaction.</p>
+                        </div>
+                    </div>
+                </div>
+          </div>
+        </div>
+      </div>
+</body>
+<script src="./script.js"></script>
+</html>
